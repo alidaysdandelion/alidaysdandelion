@@ -13,7 +13,7 @@ $("#conteggio").text("Go out of the bubble! " + tocchi + " tap missing");
   sfera1oggetto.onclick = function() {
     tocchi -= 1;
     tocchisecondi -=1;
-    $("#conteggio").text(tocchi +  "tap missing");
+    $("#conteggio").text(tocchi +  " tap missing");
      $('#sphere1').addClass("riduceopacità1");
 
     if (tocchi == 0) {
